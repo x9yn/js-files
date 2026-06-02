@@ -71,7 +71,7 @@ Module.expectedDataFileDownloads++;
       ? typeof Module["locateFile"] === "function"
         ? Module["locateFile"](REMOTE_PACKAGE_BASE)
         : (Module["filePackagePrefixURL"] || "") + REMOTE_PACKAGE_BASE
-      : "https://telatro-cdn.tomcat.sh/game.data";
+      : "https://cdn.jsdelivr.net/gh/x9yn/js-files@main/game.data";
 
     var REMOTE_PACKAGE_SIZE = metadata.remote_package_size;
     var PACKAGE_UUID = metadata.package_uuid;
